@@ -14,6 +14,12 @@ Error: object 'my_fav_variable' not found
 [1] "IL6"  "LINC" "OAS1"
 > #Its working fine
 
+> #Antigen processing and presentation - Homo sapiens (human)
+> 
+> pathway_hsa04612<- c('ifng','tnf','pmse1','pmse2','pmse3','pmse4','hp1s','hsp90a','mhc1','canx','b2m','pdia3','calr','tapbp','abcb2','abcb3','cd8a','cd8b','trav','trbv')
+> entry_number<-c('ko4687','ko3156','KO6696','KO6697','KO3283','KO9489','KO4079','KO6751','KO8054','KO8055','KO8056','KO8056','KO8057','KO8058','KO5653','KO5654','KO648','KO6459','K10784','K1078')
+> index<-data.frame(pathway_hsa04612,entry_number)
+
 
 #composition of dataframe with one charector vector and one numeric vector
  names<-c('jb','varun','anshul')
